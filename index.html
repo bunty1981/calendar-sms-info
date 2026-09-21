@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendar Text Assistant</title>
+<style>
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1a1a1a; background: #fff; margin: 0; padding: 0 1rem; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2rem 0 4rem; }
+  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2rem; }
+  .sub { color: #555; margin-top: 0; }
+  code, .sample { background: #f3f3f3; border-radius: 4px; padding: .1rem .35rem; }
+  .sample { display: block; padding: .6rem .8rem; margin: .5rem 0; }
+  footer { margin-top: 3rem; color: #555; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8e8; background: #141414; }
+    .sub, footer { color: #aaa; }
+    code, .sample { background: #262626; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Calendar Text Assistant</h1>
+<p class="sub">A private, invite-only service run by Roshni Bhagalia.</p>
+
+<h2>What this is</h2>
+<p>
+  Calendar Text Assistant is a personal tool that lets the owner, and a small number of people the owner
+  personally invites, add events to the owner's Google Calendar by sending a text message. For example,
+  texting <code>Dinner with Sam Friday 7pm</code> creates a calendar event for that time.
+  It is not a public or commercial service, and it is not open to sign-ups.
+</p>
+
+<h2>Who can use it</h2>
+<p>
+  Only people the owner has personally invited, and whose phone numbers the owner has added by hand,
+  can use the service. Texts from any other number are ignored.
+</p>
+
+<h2>How you opt in</h2>
+<p>
+  The owner invites you directly, in person or by a personal message, and explains what the service does.
+  You are added only after you agree. By texting the service's number you confirm you have agreed to
+  receive its replies.
+</p>
+<!-- Add a screenshot of the invitation/opt-in message here, hosted in this same repo, e.g.:
+     <img src="opt-in-invite.png" alt="Example invitation message the owner sends before adding someone" style="max-width:100%"> -->
+
+<h2>What messages you will receive</h2>
+<p>
+  You receive only replies to texts you send. There is no marketing and no unsolicited messaging.
+  Each text you send gets one reply, such as:
+</p>
+<span class="sample">Added: "Dinner with Sam" - Fri Sep 25, 7:00-8:00 PM. Reply UNDO to remove.</span>
+<span class="sample">Couldn't find a date/time in that. Try again with more detail.</span>
+<p>Message and data rates may apply.</p>
+
+<h2>Opting out</h2>
+<p>
+  Reply <strong>STOP</strong> at any time to stop receiving messages, or contact the owner (below) and
+  you will be removed. For help, contact the owner.
+</p>
+
+<h2>Privacy</h2>
+<ul>
+  <li>The service stores your phone number, the name the owner gave it, and a record of your most recent event so it can be undone.</li>
+  <li>The text of your message is sent to the following providers only to run the service: Twilio (delivers text messages) and Google (stores the calendar event).</li>
+  <li>Your phone number and message content are not sold, and are not shared with third parties or affiliates for marketing or promotional purposes.</li>
+  <li>You can ask to be removed, and to have your stored details deleted, at any time.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Roshni Bhagalia &middot; <a href="mailto:Roshni Bhagalia]">[roshni.b@gmail.com]</a></p>
+
+<footer>Last updated: 20 Sept 2026</footer>
+
+</main>
+</body>
+</html>
